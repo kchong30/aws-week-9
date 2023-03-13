@@ -1,0 +1,14 @@
+cockroach: 2mujx1S_ZM-A-VVh1WXsBw
+
+CREATE TABLE Todo (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    todo STRING,
+    user_uuid UUID
+);
+
+CREATE TABLE Users (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    firstName STRING,
+    lastName STRING,
+    bio STRING
+)
