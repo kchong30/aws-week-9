@@ -155,7 +155,7 @@ setTodos(response.data)
   return (
     <div className="App">
     <div className="flex flex-col justify-center items-center h-screen">
-      <h1>Welcome to the Homepage, {user.username}</h1>
+      <h1>Welcome to the Todo Homepage, {user.username}</h1>
     </div>
       <div>
         <h1>Add To Your List!</h1>
